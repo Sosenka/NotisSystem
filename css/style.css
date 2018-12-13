@@ -1,0 +1,51 @@
+nav{
+  position: relative;
+  color: white;
+}
+#logo{
+  font-family: 'Neucha', cursive;
+}
+.container_after{
+  position: relative;
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+}
+.feature-box{
+  font-family: 'Neucha', cursive;
+}
+header{
+  background-image: url("../img/header.jpg");
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  border-radius: 1px;
+}
+@media screen and (max-width: 1400px) {
+  header{
+    background-image: url("../img/header.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    border-radius: 1px;
+    background-size: 1400px 300px;
+  }
+}
+.rty:hover{
+  cursor: pointer;
+}
+.bottom-align-text {
+  position: absolute;
+  bottom: 0;
+}
+.margintop{
+  margin-top: 5px;
+}
+.nav-tabs{
+  border-style: hidden;
+  border: 0;
+  border-width: 0;
+}
+.nav-item:hover{
+  background-color: gray;
+}
